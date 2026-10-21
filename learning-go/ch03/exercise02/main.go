@@ -1,0 +1,9 @@
+package main
+
+import "fmt"
+
+func main() {
+	message := "Hi 👩 and 👨"
+	runes := []rune(message)
+	fmt.Println(runes[3])
+}
