@@ -1,3 +1,3 @@
-module ch2
+module ch8
 
 go 1.26.4
