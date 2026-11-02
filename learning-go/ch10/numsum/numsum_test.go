@@ -22,3 +22,26 @@ func TestAdd(t *testing.T) {
 		})
 	}
 }
+
+func TestAddNumberTypes(t *testing.T) {
+	t.Run("int", func(t *testing.T) {
+		var got int = Add(10, 20)
+		if got != 30 {
+			t.Errorf("Add(10, 20) = %d; want 30", got)
+		}
+	})
+
+	t.Run("float64", func(t *testing.T) {
+		var got float64 = Add(10.5, 20.5)
+		if got != 31 {
+			t.Errorf("Add(10.5, 20.5) = %g; want 31", got)
+		}
+	})
+
+	t.Run("uint", func(t *testing.T) {
+		var got uint = Add(uint(5), uint(10))
+		if got != 15 {
+			t.Errorf("Add(uint(5), uint(10)) = %d; want 15", got)
+		}
+	})
+}
