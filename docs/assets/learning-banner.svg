@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="480" viewBox="0 0 1280 480" role="img" aria-labelledby="title desc">
+  <title id="title">The Learning Lab</title>
+  <desc id="desc">A dark blue constellation of connected paths with the words: Small experiments. Lasting understanding. Go, Rust, and tools.</desc>
+  <defs>
+    <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#091323"/><stop offset="1" stop-color="#182543"/></linearGradient>
+    <linearGradient id="line"><stop stop-color="#58dedb"/><stop offset=".5" stop-color="#9b9bff"/><stop offset="1" stop-color="#ffbb8b"/></linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#a6b6df" stroke-opacity=".055"/></pattern>
+  </defs>
+  <rect width="1280" height="480" rx="24" fill="url(#bg)"/>
+  <rect width="1280" height="480" rx="24" fill="url(#grid)"/>
+  <circle cx="1070" cy="215" r="175" fill="none" stroke="#a1b5ec" stroke-opacity=".1"/>
+  <circle cx="1070" cy="215" r="125" fill="none" stroke="#a1b5ec" stroke-opacity=".12"/>
+  <circle cx="1070" cy="215" r="75" fill="none" stroke="#a1b5ec" stroke-opacity=".15"/>
+  <path d="M790 347L900 267L982 295L1070 170L1180 211L1250 95" fill="none" stroke="url(#line)" stroke-width="3"/>
+  <g fill="#101e33" stroke-width="3"><circle cx="790" cy="347" r="7" stroke="#58dedb"/><circle cx="900" cy="267" r="7" stroke="#72d4e8"/><circle cx="982" cy="295" r="7" stroke="#9b9bff"/><circle cx="1070" cy="170" r="9" stroke="#bba5d7"/><circle cx="1180" cy="211" r="7" stroke="#ffbb8b"/><circle cx="1250" cy="95" r="7" stroke="#ffbb8b"/></g>
+  <g font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="13" letter-spacing="2"><text x="76" y="80" fill="#71ddd8">FIELD NOTES / CODE / CURIOSITY</text><text x="1070" y="139" text-anchor="middle" fill="#bac8e6">ITERATE</text></g>
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"><text x="72" y="181" fill="#f3f6ff" font-size="76" font-weight="750" letter-spacing="-3">The Learning Lab</text><text x="76" y="236" fill="#b5c3df" font-size="25">Small experiments. Lasting understanding.</text></g>
+  <g font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="14" letter-spacing="1"><rect x="76" y="285" width="80" height="34" rx="17" fill="#58dedb" fill-opacity=".1"/><text x="116" y="307" text-anchor="middle" fill="#78e4df">GO</text><rect x="168" y="285" width="96" height="34" rx="17" fill="#ffbb8b" fill-opacity=".1"/><text x="216" y="307" text-anchor="middle" fill="#ffbb8b">RUST</text><rect x="276" y="285" width="112" height="34" rx="17" fill="#9b9bff" fill-opacity=".1"/><text x="332" y="307" text-anchor="middle" fill="#b8b8ff">TOOLS</text></g>
+  <path d="M76 390H1204" stroke="#a6b6df" stroke-opacity=".15"/>
+  <text x="76" y="431" fill="#8195b9" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="13" letter-spacing="2">READ → BUILD → BREAK → UNDERSTAND → REPEAT</text>
+</svg>
